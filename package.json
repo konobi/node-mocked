@@ -7,10 +7,18 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Scott McWhirter (http://github.com/konobi)",
-  "keywords": ["mock", "mocking", "test", "unittest"],
+  "keywords": [
+    "mock",
+    "mocking",
+    "test",
+    "unittest"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/konobi/node-mocked.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "tap": "^5.7.0"
+  }
 }
